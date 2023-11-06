@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Yewtube is Youtube",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Adds a right-click menu button to open a YouTube link in YewTube.",
+    "description": "Description of the add-on."
+  }
+}

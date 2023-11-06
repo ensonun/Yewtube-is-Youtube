@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "0.1",
+  "default_locale": "en",
+
+  "icons": {
+    "16": "icons/no-ad-16.png",
+    "32": "icons/no-ad-32.png",
+    "64": "icons/no-ad-64.png"
+  },
+
+  "permissions": ["contextMenus"],
+  "host_permissions": ["*://*.youtube.com/*"],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

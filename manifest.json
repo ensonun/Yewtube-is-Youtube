@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
   "version": "0.1",
@@ -12,7 +12,6 @@
   },
 
   "permissions": ["contextMenus"],
-  "host_permissions": ["*://*.youtube.com/*"],
 
   "background": {
     "scripts": ["background.js"]

@@ -1,0 +1,130 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 10.5pt;
+    color: #15141a;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.options-panel {
+    padding: 10px;
+}
+
+.display-section {
+    outline: 1px solid #555;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#current-yt-url {
+    margin-left: 5px;
+}
+
+#current-yt-url:hover {
+    user-select: text;
+    cursor: text;
+}
+
+.input-section {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+#new-yt-url {
+    flex-grow: 1;
+    margin-left: 10px;
+    padding: 6px;
+    border: none;
+    border-radius: 2px;
+    outline: 1px solid #ccc;
+}
+
+#submit-button {
+    margin-left: 10px;
+    margin-right: -10px;
+    padding: 6px;
+    width: 80px;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: #0060df;
+    color: #fff;
+}
+#submit-button:hover {
+    background-color: #0250bb;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#data-list {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer; /* Set the cursor to pointer on hover */
+}
+li:hover {
+    background-color: #f0f0f0; /* Add a background color on hover */
+}
+
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+
+body {
+    background-color: #23222b;
+    color: #fbfbfe;
+}
+
+.display-section {
+    outline-color: #6e6d74;
+}
+
+#new-yt-url {
+    background-color: #23222b;
+    color: #fbfbfe;
+    outline-color: #4e4d54;
+}
+
+#submit-button {
+    background-color: #00ddff;
+    color: #414049;
+}
+#submit-button:hover {
+    background-color: #80ebff;
+}
+
+.horizontal-line {
+    border-bottom-color: #3c3c42;
+}
+
+#data-list {
+    border-color: #4e4d54;
+}
+li {
+    border-bottom-color: #3c3c42;    
+}
+li:hover {
+    background-color: #414049;
+}
+
+}

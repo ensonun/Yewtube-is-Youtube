@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="options-panel">
+        <div class="display-section">
+            Current Invidious host: <b id="current-yt-url">No value found</b>
+        </div>
+
+        <div class="input-section">
+            <label for="new-yt-url">Change Invidious host</label>
+            <input type="text" id="new-yt-url" placeholder="Enter a new URL or Choose from below">
+            <button id="submit-button">Change</button>
+        </div>
+
+        <div class="horizontal-line"></div>
+
+        <div>
+            <label for="data-list">Top 🔟 most popular Invidious hosts: 
+            [<a href="https://docs.invidious.io/instances/">See full list</a></label>]
+            <ul id="data-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,7 +1,13 @@
 #  Yewtube is Youtube
-A Firefox extension that add a right-click menu button to open YouTube links in [YewTube](yewtu.be) - say no to tracking and ads!
+A Firefox extension that adds a right-click menu button to open YouTube links in [YewTube](yewtu.be) - say no to tracking and ads!
 
 With version 1.0, you can now choose to use your favourite Invidious instance in the options menu. (Don't forget to check out the dark mode!)
+
+
+
+## Installing through Firefox Browser Addons
+
+Installing the extension through Firefox's official addon market is easy, just follow [this link](https://addons.mozilla.org/firefox/addon/yewtube-is-youtube/).
 
 
 
